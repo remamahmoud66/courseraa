@@ -1,0 +1,81 @@
+.top-nav {
+  background-color: #000;
+  font-size: 0.85rem;
+}
+.top-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  display: inline-block;
+  transition: background-color 0.2s, color 0.2s;
+}
+.top-nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+.top-nav a.active {
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Main Navbar Links Hover */
+.nav-link-custom {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.nav-link-custom:hover {
+  color: #0056b3;
+}
+
+/* Hero Banner 1 (Blue) */
+.hero-banner-blue {
+  background-color: #0056b3;
+  color: white;
+  border-radius: 20px;
+  padding: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hero Banner 2 (Light Gray/Blue) */
+.hero-banner-light {
+  background-color: #f0f4f9;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+/* Button Hover Effects */
+.btn-hover-effect {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.btn-hover-effect:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Course Cards Hover */
+.course-card {
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+.course-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  border-color: #0056b3;
+  cursor: pointer;
+}
+
+/* Partner Logos Hover */
+.partner-logo {
+  transition: filter 0.2s, transform 0.2s;
+  filter: grayscale(30%);
+}
+.partner-logo:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
